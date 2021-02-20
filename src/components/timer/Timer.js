@@ -27,8 +27,12 @@ export default ({ initialTime }) => {
     }, 1000);
 
     setTimeout(() => {
+      const colors = ["#bb0000", "#ffffff"];
       confetti({
-        particleCount: 150,
+        particleCount: 200,
+        spread: 100,
+        startVelocity: 40,
+        colors: colors,
       });
     }, 2000);
   }, []);
