@@ -23,12 +23,17 @@ export default ({ initialTime }) => {
       setCalculateTime(
         dayjs.duration(getCalculateTime(initialTime), "milliseconds")
       );
-      console.log("Changos");
     }, 1000);
   }, []);
 
   return (
     <div className="Timer">
+      <div className="Timer__block">
+        <span className="Timer__summary">
+          I arrived to 🇨🇦 <strong>Toronto</strong> on{" "}
+          {dayjs(initialTime).format("YYYY/MM/DD HH:MM")}
+        </span>
+      </div>
       <div className="Timer__block">
         <span className="Timer__label">Years</span>
         <span className="Timer__value">{calculateTime.years()}</span>
@@ -42,18 +47,16 @@ export default ({ initialTime }) => {
         <span className="Timer__value">{calculateTime.days()}</span>
       </div>
       <div className="Timer__block">
+        <span className="Timer__label">Hours</span>
+        <span className="Timer__value">{calculateTime.hours()}</span>
+      </div>
+      <div className="Timer__block">
         <span className="Timer__label">Minutes</span>
         <span className="Timer__value">{calculateTime.minutes()}</span>
       </div>
       <div className="Timer__block">
         <span className="Timer__label">Seconds</span>
         <span className="Timer__value">{calculateTime.seconds()}</span>
-      </div>
-      <div className="Timer__block">
-        <span className="Timer__summary">
-          I arrived to 🇨🇦 <strong>Toronto</strong> on{" "}
-          {dayjs(initialTime).format("YYYY/MM/DD HH:MM")}
-        </span>
       </div>
     </div>
   );

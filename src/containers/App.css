@@ -7,6 +7,7 @@
   content: "";
   background: url("../images/cn_tower.jpg") no-repeat;
   background-size: cover;
+  background-position: center center;
   filter: brightness(20%);
   top: 0;
   left: 0;
