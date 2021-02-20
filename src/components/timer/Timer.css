@@ -3,6 +3,8 @@
 .Timer {
   display: flex;
   flex-direction: column;
+  background: rgba(150, 150, 150, 0.2);
+  padding: 0 2rem;
 }
 
 .Timer__block {
@@ -13,13 +15,13 @@
 
 .Timer__label {
   font-family: "Roboto", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .Timer__value {
   font-family: "Stick", sans-serif;
   color: yellow;
-  font-size: 2.5rem;
+  font-size: 2rem;
   width: 6rem;
   text-align: right;
 }
