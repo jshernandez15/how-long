@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3fda099.chunk.css",
-    "main.js": "/static/js/main.79a18312.chunk.js",
-    "main.js.map": "/static/js/main.79a18312.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4c45ef29.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4c45ef29.js.map",
-    "static/js/2.c14f741b.chunk.js": "/static/js/2.c14f741b.chunk.js",
-    "static/js/2.c14f741b.chunk.js.map": "/static/js/2.c14f741b.chunk.js.map",
-    "static/js/3.d187e9d0.chunk.js": "/static/js/3.d187e9d0.chunk.js",
-    "static/js/3.d187e9d0.chunk.js.map": "/static/js/3.d187e9d0.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.d3fda099.chunk.css.map": "/static/css/main.d3fda099.chunk.css.map",
-    "static/js/2.c14f741b.chunk.js.LICENSE.txt": "/static/js/2.c14f741b.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/cn_tower.bfbe9c53.jpg",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/how-long/static/css/main.d857536c.chunk.css",
+    "main.js": "/how-long/static/js/main.79a18312.chunk.js",
+    "main.js.map": "/how-long/static/js/main.79a18312.chunk.js.map",
+    "runtime-main.js": "/how-long/static/js/runtime-main.ddb07a2d.js",
+    "runtime-main.js.map": "/how-long/static/js/runtime-main.ddb07a2d.js.map",
+    "static/js/2.c14f741b.chunk.js": "/how-long/static/js/2.c14f741b.chunk.js",
+    "static/js/2.c14f741b.chunk.js.map": "/how-long/static/js/2.c14f741b.chunk.js.map",
+    "static/js/3.d187e9d0.chunk.js": "/how-long/static/js/3.d187e9d0.chunk.js",
+    "static/js/3.d187e9d0.chunk.js.map": "/how-long/static/js/3.d187e9d0.chunk.js.map",
+    "index.html": "/how-long/index.html",
+    "static/css/main.d857536c.chunk.css.map": "/how-long/static/css/main.d857536c.chunk.css.map",
+    "static/js/2.c14f741b.chunk.js.LICENSE.txt": "/how-long/static/js/2.c14f741b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/how-long/static/media/cn_tower.bfbe9c53.jpg",
+    "static/media/logo.6ce24c58.svg": "/how-long/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c45ef29.js",
+    "static/js/runtime-main.ddb07a2d.js",
     "static/js/2.c14f741b.chunk.js",
-    "static/css/main.d3fda099.chunk.css",
+    "static/css/main.d857536c.chunk.css",
     "static/js/main.79a18312.chunk.js"
   ]
 }
