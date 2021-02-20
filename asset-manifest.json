@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/how-long/static/css/main.ca5b814e.chunk.css",
-    "main.js": "/how-long/static/js/main.dd58de9c.chunk.js",
-    "main.js.map": "/how-long/static/js/main.dd58de9c.chunk.js.map",
+    "main.js": "/how-long/static/js/main.0dc26900.chunk.js",
+    "main.js.map": "/how-long/static/js/main.0dc26900.chunk.js.map",
     "runtime-main.js": "/how-long/static/js/runtime-main.ddb07a2d.js",
     "runtime-main.js.map": "/how-long/static/js/runtime-main.ddb07a2d.js.map",
     "static/js/2.c14f741b.chunk.js": "/how-long/static/js/2.c14f741b.chunk.js",
@@ -12,13 +12,12 @@
     "index.html": "/how-long/index.html",
     "static/css/main.ca5b814e.chunk.css.map": "/how-long/static/css/main.ca5b814e.chunk.css.map",
     "static/js/2.c14f741b.chunk.js.LICENSE.txt": "/how-long/static/js/2.c14f741b.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/how-long/static/media/cn_tower.bfbe9c53.jpg",
-    "static/media/logo.6ce24c58.svg": "/how-long/static/media/logo.6ce24c58.svg"
+    "static/media/App.css": "/how-long/static/media/cn_tower.bfbe9c53.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ddb07a2d.js",
     "static/js/2.c14f741b.chunk.js",
     "static/css/main.ca5b814e.chunk.css",
-    "static/js/main.dd58de9c.chunk.js"
+    "static/js/main.0dc26900.chunk.js"
   ]
 }
