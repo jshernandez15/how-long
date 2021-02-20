@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Stick&display=swap");
+
+.Timer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Timer__block {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Timer__label {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+
+.Timer__value {
+  font-family: "Stick", sans-serif;
+  color: yellow;
+  font-size: 2.5rem;
+  width: 6rem;
+  text-align: right;
+}
+
+.Timer__summary {
+  font-size: 1rem;
+}
