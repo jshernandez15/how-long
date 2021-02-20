@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import duration from "dayjs/plugin/duration";
 import * as dayjs from "dayjs";
+import confetti from "canvas-confetti";
 
 import "./Timer.css";
 
@@ -24,6 +25,12 @@ export default ({ initialTime }) => {
         dayjs.duration(getCalculateTime(initialTime), "milliseconds")
       );
     }, 1000);
+
+    setTimeout(() => {
+      confetti({
+        particleCount: 150,
+      });
+    }, 2000);
   }, []);
 
   return (
