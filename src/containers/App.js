@@ -1,6 +1,5 @@
 import Timer from "../components/timer/Timer";
 
-import logo from "../logo.svg";
 import "./App.css";
 
 const App = () => {
