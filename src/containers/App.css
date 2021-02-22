@@ -6,7 +6,7 @@
 .App::after {
   content: "";
   background: url("../images/bg.jpeg") no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   filter: brightness(50%);
   top: 0;
