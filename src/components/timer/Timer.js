@@ -41,32 +41,31 @@ export default ({ initialTime }) => {
     <div className="Timer">
       <div className="Timer__block">
         <span className="Timer__summary">
-          I arrived to 🇨🇦 <strong>Toronto</strong> on{" "}
-          {dayjs(initialTime).format("YYYY/MM/DD HH:MM")}
+          Llegamos a nuestro 🏠 <strong>hogar</strong> el {" "}{dayjs(initialTime).format("DD [del mes] MM [del] YYYY [a las] HH:mm")}
         </span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Years</span>
+        <span className="Timer__label">Años</span>
         <span className="Timer__value">{calculateTime.years()}</span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Months</span>
+        <span className="Timer__label">Meses</span>
         <span className="Timer__value">{calculateTime.months()}</span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Days</span>
+        <span className="Timer__label">D&iacute;as</span>
         <span className="Timer__value">{calculateTime.days()}</span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Hours</span>
+        <span className="Timer__label">Horas</span>
         <span className="Timer__value">{calculateTime.hours()}</span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Minutes</span>
+        <span className="Timer__label">Minutos</span>
         <span className="Timer__value">{calculateTime.minutes()}</span>
       </div>
       <div className="Timer__block">
-        <span className="Timer__label">Seconds</span>
+        <span className="Timer__label">Segundos</span>
         <span className="Timer__value">{calculateTime.seconds()}</span>
       </div>
     </div>

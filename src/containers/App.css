@@ -5,10 +5,10 @@
 
 .App::after {
   content: "";
-  background: url("../images/cn_tower.jpg") no-repeat;
+  background: url("../images/bg.jpeg") no-repeat;
   background-size: cover;
   background-position: center center;
-  filter: brightness(20%);
+  filter: brightness(50%);
   top: 0;
   left: 0;
   bottom: 0;
